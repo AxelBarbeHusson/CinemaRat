@@ -1,16 +1,14 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+    <ion-title>Les Cinemas de France</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-list inset>
     <ion-item *ngFor=”let cinemas of cinema”>
-      <h1>{{cinema.id}}</h1>
       <h2>{{cinema.name}}</h2>
+      <ion-route-redirect from="/tab1" to="/addcomment"><ion-button>Add Comment</ion-button></ion-route-redirect>
     </ion-item>
   </ion-list>
 

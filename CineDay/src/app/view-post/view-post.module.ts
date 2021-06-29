@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { AddCommentPage } from '../add-comment/add-comment';
-import { Comments } from '../../providers/comments';
+import { Comments } from 'comments.service.ts';
 
 @Component({
   selector: 'page-view-post',
