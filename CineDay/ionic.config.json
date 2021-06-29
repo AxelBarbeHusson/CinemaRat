@@ -1,0 +1,7 @@
+{
+  "name": "CineDay",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

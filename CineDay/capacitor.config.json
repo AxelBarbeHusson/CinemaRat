@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "CineDay",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

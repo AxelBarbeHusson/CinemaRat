@@ -1,0 +1,33 @@
+{
+  "cinema": [
+    {
+      "id": 1,
+      "name": "Pathé",
+      "locate": "49.453160, 1.058746",
+      "image" : "https://picsum.photos/seed/picsum/200/300"
+    },
+    {
+      "id": 1,
+      "name": "Le mirror",
+      "locate": "49.19236388556396, -0.42925096719124683",
+      "image" : "https://picsum.photos/seed/picsum/200/300"
+    },
+    {
+      "id": 1,
+      "name": "le Jacyra",
+      "locate": "47.482231156846225, -0.6118583939174337",
+      "image" : "https://picsum.photos/seed/picsum/200/300"
+    }
+  ],
+  "comment" : [
+    {
+      "_id": "_design/comments",
+      "language": "javascript",
+      "views": {
+        "by_post_id": {
+          "map": "function(doc){ if(doc.type == \"comment\"){emit(doc.post, doc);} }"
+        }
+      }
+    }
+  ]
+}
